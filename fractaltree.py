@@ -12,7 +12,7 @@ def drawTree(x1, y1, angle, depth, colour, lvl, width):
     if depth:
 
         #wait 10ms
-        pygame.time.wait(1)
+        pygame.time.wait(10)
 
         #get end point of current branch (also start point)
         #also somewhat arbitrary
